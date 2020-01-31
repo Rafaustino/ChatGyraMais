@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.form {
+  background: #49ACC0;
+  padding: 1rem;
+}
+
+.form__field {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.2rem;
+  padding: .5rem 1rem;
+}
+
+.form__field--user
+{
+  width: 30%;
+}
+
+.form__field--message
+{
+  width: 70%;
+}
+
+
+.list {
+  margin: 0;
+  padding: 1rem;
+  height: 500px;
+  background-image: url("gyra.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: scroll;
+}
+
+.list::-webkit-scrollbar
+{
+  width: 7px;
+}
+
+
+.list__item {
+  list-style: none;
+  text-align: center;
+}
+
+.message {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  background: rgb(201, 219, 45, 0.8);
+  border-color: rgb(176, 196, 3);
+}
+
+/*#C9DB2D
+
+#49ACC0*/
